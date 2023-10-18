@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   <style>@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&family=Josefin+Sans&family=Kanit:wght@700&family=Lora&family=Pixelify+Sans:wght@500;600&family=Poppins:wght@400;500&family=Rowdies:wght@300&family=Rubik:wght@600&family=Source+Code+Pro:wght@300&family=Young+Serif&display=swap');
+* {margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-decoration: none;
+font-family: 'Istok Web', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Pixelify Sans', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rowdies', cursive;
+font-family: 'Rubik', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Young Serif', serif;
+}
+div ul{
+ 
+ position: absolute;
+ top: 3%; left: 65%;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ gap: 4%;
+ width: 40%;
+ 
+}
+div nav ul li a{
+text-decoration: none;
+font-family: 'Istok Web', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Pixelify Sans', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rowdies', cursive;
+font-family: 'Rubik', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Young Serif', serif;
+text-decoration: none;
+list-style: none;
+color: #03a9f4;
+transition: 1s;
+ transition-timing-function: ease-in;
+font-size: 22px;
+font-weight: 500;
+}
+div nav ul li a:hover{
+  color: aqua;
+}
+div nav{
+    width: 100%;
+    
+}
+body{
+    background-image: url(photos/pic.bg.jpg);
+}
+.Home{
+    color: aqua;
+}
+h1{
+   font-size: 89PX;
+   color: #ffffff;
+   position: absolute;
+   top: 15%;
+   left: 12%;
+   padding-left: 50px;
+   transition: 1s;
+   transition-timing-function: ease-in;
+}
+h1:hover{
+    color: aqua;  
+    text-shadow:  0 0 13px #00f8ff, 0 0 42px rgb(0 255 170 / 0%),
+    0 0 82px rgb(0 255 170 / 0%), 0 0 92px rgb(0 255 170 / 0%), 0 0 102px rgb(0 255 170 / 61%), 0 0 151px rgb(0 255 170 / 0%);
+   
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.intro{
+    font-size: 43px;
+    font-weight: bold;
+    color: antiquewhite;
+    padding-left: 15%;
+    position: absolute;
+    top: 36%;
+    left: 0%;
+}
+.sp1:hover{
+    color: #00f8ff;
+ }
+ .sp2:hover{
+    color: #00f8ff;
+    
+ }
+ .sp1{
+    transition: 1s;
+    transition-timing-function: ease-in;
+ }
+ .sp2{
+    transition: 1s;
+    transition-timing-function: ease-in;
+ }</style>
+</head>
+<body>
+    <div>
+        <nav>
+            <img src="photos/com.logo.png"alt="img not found" width="4%">
+         <ul>
+            <li > <a href="#" class="Home">Home</a></li>
+            <li class=""><a href="about/about.html">About Me</a></li>
+            <li class=""> <a href="/port/services/service.html">services</a></li>
+            <li class=""><a href="/port/contact/contact.html">Contact Me</a></li>
+         </ul>
+         </nav>
+    </div>
+    <h1> HI I'M RAHUL</h1>
+    <div class="intro"> 
+        <p> <span class="sp1">I'm professional web-developer</span>
+        <br> <span class="sp2">and video-editor . </span></p>
+    </div>
+
+</body>
+</html>
